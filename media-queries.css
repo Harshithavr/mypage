@@ -1,0 +1,66 @@
+:root{
+	font-size: 20px;
+}
+body{
+	background-color:green;
+	margin: 5vw;
+	padding :20%;
+	/*border:5px solid red;*/
+}
+
+.container {
+	border :1vw solid red;
+	margin:5vw;
+}
+
+.container-item{
+	background-color: yellow;
+}
+
+.container-font{
+  color: blue; 
+  padding:20%;
+  text-align:center;
+  
+   }
+
+@media screen and (min-width: 768px){
+	.container-item{
+		height: 30vw;
+		background-color: pink;
+	}
+	.container-font{
+		font-size: 2rem;
+		color:brown;
+	}
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+	.container-item{
+		height: 60vw;
+		background-color: violet;
+	}
+	.container-font{
+		font-size: 1.5rem;
+		color:black;
+	}
+}
+@media screen and (max-width: 479px){
+	.container-item{
+		height: 90vw;
+		background-color: indigo;
+	}
+	.container-font{
+		font-size: 1rem;
+		color:white;
+	}
+}
+@media screen and (max-width: 200px){
+	.container-item{
+		height: 120vw;
+		background-color: grey;
+	}
+	.container-font{
+		font-size: 0.7rem;
+		color:blue;
+	}
+}
